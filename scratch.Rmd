@@ -1,0 +1,30 @@
+---
+title: "Scratchfile"
+author: "Kieran Healy"
+date: "January 1 2022"
+output: html_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+```{r}
+library(tidyverse)
+library(socviz)
+library(here)
+```
+
+
+
+
+```{r}
+
+```
+
+
+

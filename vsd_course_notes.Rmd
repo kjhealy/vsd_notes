@@ -1,0 +1,50 @@
+---
+title: "Course Notes for Visualizing Social Data"
+author: "<YOUR NAME HERE>"
+date: "Spring 2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Welcome
+
+This is an R Markdown document. Markdown is a way of writing plain text that can then be converted into HTML, PDF, or MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When this document is open in RStudio and you click the **Knit** button, a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Setup
+
+This section ensures some packages that you'll need are loaded.
+
+```{r}
+library(here)
+library(socviz)
+library(gapminder)
+library(tidyverse)
+```
+
+```{r}
+here::i_am("course_notes.Rmd") # relative to the course packet.
+```
+
+## Notes
+
+Regular text goes here.
+
+R code goes in chunks that look like this:
+
+```{r}
+# rcode
+
+1 + 1
+```
+
+Regular text goes here.
+
